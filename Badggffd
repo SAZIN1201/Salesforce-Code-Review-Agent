@@ -1,0 +1,53 @@
+# Salesforce Code Review Agent
+
+A [For a beginner-friendly, non-breaking contribution, I’d use an issue template. It adds contributor guidance without changing the application code.
+
+1. File path/name
+
+.github/ISSUE_TEMPLATE/bug_report.md
+
+2. Text to paste in
+
+---
+name: Bug report
+about: Report a problem with the Salesforce Code Review Agent
+title: "[Bug]: "
+labels: bug
+assignees: ""
+---
+## What happened?
+Describe the problem you encountered.
+## Steps to reproduce
+1. 
+2. 
+3. 
+  
+## Expected behavior
+What did you expect to happen?
+## Actual behavior
+What happened instead?
+## Environment
+- Salesforce Code Review Agent version/commit:
+- Operating system:
+- Python/Node version (if relevant):
+- Other relevant details:
+## Logs or screenshots
+Please remove any secrets, credentials, tokens, or private Salesforce data before posting.
+```text
+Paste relevant logs here.
+
+Additional context
+
+Add anything else that may help reproduce or understand the issue.
+
+### 3. Branch name
+```text
+docs/add-bug-report-template
+
+4. Commit message
+
+docs: add bug report issue template
+
+PR title: docs: add bug report issue template
+
+This is a small, easy-to-review change and doesn’t modify the project’s Salesforce/code-review functionality. One caveat: before creating it, check whether .github/ISSUE_TEMPLATE/bug_report.md already exists; if it does, choose a different template rather than overwriting it.
